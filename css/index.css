@@ -88,6 +88,11 @@ header .gnb ul li.on a {
     text-decoration: underline;
 }
 
+#brand2, #brand3, #brand4 {
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
 #brand1 {background : url(../imgs/leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat top/cover ;}
 
 
