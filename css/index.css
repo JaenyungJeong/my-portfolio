@@ -1,0 +1,350 @@
+@charset 'UTF-8';
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+
+}
+
+ul::after, ol::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+/* 보이는 화면기준 크기 설정 */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    /* background-color: navy; */
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.1);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+header .inner {
+    font-family: "DM Serif Display", serif;
+    width: 100%;
+    max-width: 1720px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+header .gnb {
+    float: right;
+    margin-right: 50px;
+}
+
+header .gnb ul {}
+header .gnb ul li {}
+header .gnb ul li~li {
+    margin-left: 20px;
+}
+header .gnb ul li a {
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #fff;
+}
+
+header .gnb ul li a:hover {
+    color: darkseagreen;
+}
+
+header .gnb ul li.on a {
+    color: darkseagreen;
+    text-decoration: underline;
+}
+
+#brand1 {background : url(../imgs/leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat top/cover ;}
+
+
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.page .main-title {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#brand1 {
+    margin-bottom: 200px;
+}
+#brand1 .main-title h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 120px;
+    letter-spacing: 20px;
+}
+#brand1 .main-title p {
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+#brand2 {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+#brand2 .title {
+    margin-bottom: 100px;
+    text-align: center;
+}
+#brand2 .title h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#brand2 .title p {
+    font-size: 24px;
+}
+
+#brand2 .website {
+    position: relative;
+} 
+#brand2 .website .img {
+    width: 50%;
+    border: 3px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+} 
+
+#brand2 .website .img img {
+    width: 100%;
+    display: block;
+
+    
+}
+#brand2 .website .des {
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+} 
+#brand2 .website .des h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+} 
+#brand2 .website .des p {
+    margin-bottom: 30px;
+    color: #777;
+} 
+#brand2 .website .des p a{
+    display: inline-block;
+    color: #000;
+    padding: 5px 5px;
+    border: 3px solid #000; 
+    border-radius: 10px;
+} 
+
+#brand2 .website .des p a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+#brand3 {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+#brand3 .title {
+    margin-bottom: 100px;
+    text-align: center;
+}
+#brand3 .title h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#brand3 .title p {
+    font-size: 24px;
+}
+
+#brand3 .clone-coding {
+    position: relative;
+} 
+#brand3 .clone-coding .img {
+    width: 50%;
+    border: 3px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+} 
+
+#brand3 .clone-coding .img img {
+    width: 100%;
+    display: block;
+}
+#brand3 .clone-coding .des {
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+} 
+#brand3 .clone-coding .des h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+} 
+#brand3 .clone-coding .des p {
+    margin-bottom: 30px;
+    color: #777;
+} 
+#brand3 .clone-coding .des p a{
+    display: inline-block;
+    color: #000;
+    padding: 5px 5px;
+    border: 3px solid #000; 
+    border-radius: 10px;
+} 
+
+#brand3 .clone-coding .des p a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+#brand4 {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+#brand4 .title {
+    margin-bottom: 100px;
+    text-align: center;
+}
+#brand4 .title h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#brand4 .title p {
+    font-size: 24px;
+}
+
+#brand4 .footer-box {
+    /* outline: 2px solid blue; */
+
+    width: 33.333%;
+    float: left;
+    text-align: center;
+}
+
+#brand4 .footer-box img {
+    margin-bottom: 10px;
+}
+
+
+#brand4 .footer-box h4 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#brand4 .footer-box p {
+    color: #999;
+}
+
+
+/* footer **********************************************************************************************************/
+footer {
+
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto 200px;
+
+    background-color: #fff;
+    padding: 60px 0;
+    position: relative; /* .top의 기준! */
+}
+footer .footer-box {
+    /* outline: 2px solid blue; */
+
+    width: 33.333%;
+    float: left;
+}
+
+footer .title {
+    margin-bottom: 100px;
+    text-align: center;
+}
+footer .title h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+footer .title p {
+    font-size: 24px;
+}
+
+footer .footer-box h4 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+footer .footer-box p {
+    color: #999;
+}
+
+/* footer - dark mode 디자인 */
+footer.dark {
+    background-color: #333;
+}
+footer.dark .footer-box h4 {
+    color: rgba(255,255,255,0.8);
+}
+footer.dark .footer-box p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer .top {
+    position: absolute;
+    right: 5%;
+    bottom: 100px;
+}
+footer .top img {
+    display: block;
+}
