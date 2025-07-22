@@ -88,8 +88,13 @@ header .gnb ul li.on a {
     text-decoration: underline;
 }
 
-#brand2, #brand3, #brand4 {
+#brand2, #brand3 {
     padding-top: 150px;
+    box-sizing: border-box;
+}
+
+#brand4 {
+    padding-top: 200px;
     box-sizing: border-box;
 }
 
