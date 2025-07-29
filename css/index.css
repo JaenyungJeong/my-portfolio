@@ -154,8 +154,8 @@ header .gnb ul li.on a {
 } 
 #brand2 .website .img {
     width: 50%;
-    border: 3px solid #000;
-    border-radius: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
     overflow: hidden;
 } 
 
@@ -174,10 +174,10 @@ header .gnb ul li.on a {
 } 
 #brand2 .website .des h3 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 } 
 #brand2 .website .des p {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: #777;
 } 
 #brand2 .website .des p a{
@@ -217,8 +217,8 @@ header .gnb ul li.on a {
 } 
 #brand3 .clone-coding .img {
     width: 50%;
-    border: 3px solid #000;
-    border-radius: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
     overflow: hidden;
 } 
 
@@ -235,10 +235,10 @@ header .gnb ul li.on a {
 } 
 #brand3 .clone-coding .des h3 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 } 
 #brand3 .clone-coding .des p {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: #777;
 } 
 #brand3 .clone-coding .des p a{
