@@ -88,6 +88,10 @@ header .gnb ul li.on a {
     text-decoration: underline;
 }
 
+img {
+    object-fit: contain;
+}
+
 #brand2, #brand3 {
     padding-top: 150px;
     box-sizing: border-box;
